@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "No Pre-Download",
+    "author": "PufferOverflow",
+    "version": "1.0",
+    "description": "Disable the stupid auto pre-downloading files when accidentally clicked a download link. Save your money when using a metered network",
+    "background": {
+        "service_worker": "bg.js"
+    },
+    "permissions": [
+        "downloads"
+    ]
+}
